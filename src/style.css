@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    font-family: arial;
+    background-color: #888888; 
+}
+
+#graph {
+    display: block;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 5px;
+    width: 80;
+    max-width: 1000px;
+    height: auto;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.5);
+}
+#title {
+    font-size: 30px;
+    font-weight: bold;
+}
+#tooltip {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    margin: auto;
+}
+
+.axis-label {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .axis-label {
+        font-size: 20px;
+    }
+
+    #tooltip {
+        background-color: white;
+        border-radius: 5px;
+        padding: 10px;
+        position: absolute;
+        font-size: 10px;
+    }
+
+    .legend-text {
+        font-size: 20px; 
+    }
+
+}
